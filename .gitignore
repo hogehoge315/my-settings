@@ -2,3 +2,7 @@ cagent
 fish
 github-copilot
 uv
+raycast
+
+config.yml
+hosts.yml
