@@ -3,7 +3,7 @@ return {
   lazy = false,
   dependencies = { "mason-org/mason.nvim" },
   config = function()
-    local lsp_servers = { "lua_ls", "pyright", "ruff", "ts_ls", "html", "yamlls", "jsonls" }
+    local lsp_servers = { "lua_ls", "pyright", "ruff_lsp", "ts_ls", "html", "yamlls", "jsonls", "marksman", "terraformls", "tailwindcss", "dockerls", "docker_compose_language_service"}
     local diagnostics = { "typos_lsp" }
 
     require("mason-lspconfig").setup({
